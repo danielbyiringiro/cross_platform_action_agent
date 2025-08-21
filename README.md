@@ -1,6 +1,6 @@
 # Demo Video
 
-[🎥 Watch the demo](output.mp4)
+<video src="output.mp4" controls width="600"></video>
 
 # Cross-Platform Email Automation Agent
 
