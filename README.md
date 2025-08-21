@@ -14,19 +14,20 @@ This project demonstrates advanced web automation patterns while acknowledging t
 
 ## Technical Architecture
 
-EmailAgent (Orchestrator)
-│
-├── MockLLM (Instruction Parser)
-│
-├── EmailProvider (Abstract Base Class)
-│ ├── GmailProvider (Functional Simulation)
-│ └── OutlookProvider (Mocked due to bot detection)
-│
-└── Browser Simulation Layer
-├── MockBrowser
-├── MockPage
-├── MockElement
-└── MockKeyboard
+EmailAgent (Orchestrator)  
+│  
+├── MockLLM (Instruction Parser)  
+│  
+├── EmailProvider (Abstract Base Class)  
+│   ├── GmailProvider (Functional Simulation)  
+│   └── OutlookProvider (Mocked due to bot detection)  
+│  
+└── Browser Simulation Layer  
+    ├── MockBrowser  
+    ├── MockPage  
+    ├── MockElement  
+    └── MockKeyboard  
+
 
 # Case Study 2: Cross-Platform Email Automation - Requirements Implementation
 
@@ -255,6 +256,7 @@ python email_agent.py "Send email to test@example.com about 'Meeting' saying 'He
 
 **Expected Output**
 
+```
 2025-08-20 22:27:05,842 - INFO - Processing with gmail
 2025-08-20 22:27:06,234 - INFO - Interpreting instruction: Send email to test@example.com about 'Meeting' saying 'Hello there'
 2025-08-20 22:27:06,240 - INFO - MOCK: Navigating to Gmail
@@ -274,10 +276,16 @@ python email_agent.py "Send email to test@example.com about 'Meeting' saying 'He
 2025-08-20 22:27:44,509 - INFO - MOCK: Detecting automation patterns
 2025-08-20 22:27:45,510 - ERROR - MOCK: Microsoft bot detection blocked authentication
 2025-08-20 22:27:45,511 - ERROR - Failed to send email via outlook: Authentication failed: Bot detection triggered
+```
 
-Execution Results:
+---
+
+**Execution Results:**
+```
 gmail: Success
 outlook: Failed: Authentication failed: Bot detection triggered
+```
+
 
 ## Technical Limitations  
 
