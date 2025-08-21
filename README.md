@@ -1,3 +1,7 @@
+# Demo Video
+
+[🎥 Watch the demo](demo.mp4)
+
 # Cross-Platform Email Automation Agent
 
 A sophisticated automation system that simulates sending emails across multiple email providers (**Gmail** and **Outlook**) using browser automation techniques.  

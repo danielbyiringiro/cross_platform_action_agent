@@ -25,3 +25,30 @@
 2025-08-21 00:01:32,940 - INFO - MOCK: Closing page
 2025-08-21 00:01:32,941 - INFO - MOCK: Closing email agent
 2025-08-21 00:01:32,942 - INFO - MOCK: Closing browser
+2025-08-21 00:53:34,065 - INFO - MOCK: Initializing email agent
+2025-08-21 00:53:34,069 - INFO - Processing with gmail
+2025-08-21 00:53:34,073 - INFO - Interpreting instruction: Send email to dbyiringiro@ashesi.edu.gh about 'Tomorrows meeting with Iteme Shop' saying 'It is at 2pm'
+2025-08-21 00:53:34,078 - INFO - MOCK: Navigating to Gmail
+2025-08-21 00:53:34,932 - INFO - MOCK: Gmail inbox loaded successfully
+2025-08-21 00:53:34,935 - INFO - MOCK: Preparing to send email to dbyiringiro@ashesi.edu.gh via Gmail
+2025-08-21 00:53:37,335 - INFO - MOCK: Clicking compose button
+2025-08-21 00:53:37,913 - INFO - MOCK: Entering recipient: dbyiringiro@ashesi.edu.gh
+2025-08-21 00:53:37,914 - INFO - MOCK: Handling email suggestions
+2025-08-21 00:53:38,822 - INFO - MOCK: Pressed Enter to accept suggestion
+2025-08-21 00:53:38,833 - INFO - MOCK: Entering subject: 'Tomorrows meeting with Iteme Shop'
+2025-08-21 00:53:39,471 - INFO - MOCK: Entering body: 'It is at 2pm'
+2025-08-21 00:53:41,383 - INFO - MOCK: Sending email with Ctrl+Enter shortcut
+2025-08-21 00:53:43,322 - INFO - MOCK: Gmail email sent successfully
+2025-08-21 00:53:43,326 - INFO - Email sent successfully via gmail
+2025-08-21 00:53:44,326 - INFO - MOCK: Closing page
+2025-08-21 00:53:44,326 - INFO - Processing with outlook
+2025-08-21 00:53:44,336 - INFO - Interpreting instruction: Send email to dbyiringiro@ashesi.edu.gh about 'Tomorrows meeting with Iteme Shop' saying 'It is at 2pm'
+2025-08-21 00:53:44,336 - INFO - MOCK: Navigating to Outlook
+2025-08-21 00:53:45,531 - INFO - MOCK: Loading Office 365 login page
+2025-08-21 00:53:47,683 - INFO - MOCK: Checking existing sessions
+2025-08-21 00:53:50,183 - INFO - MOCK: Detecting automation patterns
+2025-08-21 00:53:51,810 - ERROR - MOCK: Microsoft bot detection blocked authentication
+2025-08-21 00:53:51,810 - ERROR - Failed to send email via outlook: Authentication failed: Bot detection triggered
+2025-08-21 00:53:52,812 - INFO - MOCK: Closing page
+2025-08-21 00:53:52,813 - INFO - MOCK: Closing email agent
+2025-08-21 00:53:52,813 - INFO - MOCK: Closing browser
