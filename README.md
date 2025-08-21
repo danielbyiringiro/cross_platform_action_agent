@@ -1,6 +1,10 @@
 # Demo Video
 
-<video src="output.mp4" controls width="600"></video>
+<p align="center">
+  <a href="https://youtu.be/jzTgGCZ4T1I" target="_blank">
+    <img src="https://img.youtube.com/vi/jzTgGCZ4T1I/0.jpg" alt="Demo Video" style="max-width:100%;">
+  </a>
+</p>
 
 # Cross-Platform Email Automation Agent
 
