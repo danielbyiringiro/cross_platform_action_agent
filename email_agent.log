@@ -1,0 +1,27 @@
+2025-08-21 00:01:13,099 - INFO - MOCK: Initializing email agent
+2025-08-21 00:01:13,099 - INFO - Processing with gmail
+2025-08-21 00:01:13,099 - INFO - Interpreting instruction: Send email to dbyiringiro@ashesi.edu.gh about 'Tomorrows meeting with Iteme Shop' saying 'It is at 2pm'
+2025-08-21 00:01:13,101 - INFO - MOCK: Navigating to Gmail
+2025-08-21 00:01:15,536 - INFO - MOCK: Gmail inbox loaded successfully
+2025-08-21 00:01:15,536 - INFO - MOCK: Preparing to send email to dbyiringiro@ashesi.edu.gh via Gmail
+2025-08-21 00:01:17,450 - INFO - MOCK: Clicking compose button
+2025-08-21 00:01:18,990 - INFO - MOCK: Entering recipient: dbyiringiro@ashesi.edu.gh
+2025-08-21 00:01:18,991 - INFO - MOCK: Handling email suggestions
+2025-08-21 00:01:20,651 - INFO - MOCK: Pressed Enter to accept suggestion
+2025-08-21 00:01:20,652 - INFO - MOCK: Entering subject: 'Tomorrows meeting with Iteme Shop'
+2025-08-21 00:01:22,911 - INFO - MOCK: Entering body: 'It is at 2pm'
+2025-08-21 00:01:24,026 - INFO - MOCK: Sending email with Ctrl+Enter shortcut
+2025-08-21 00:01:25,472 - INFO - MOCK: Gmail email sent successfully
+2025-08-21 00:01:25,472 - INFO - Email sent successfully via gmail
+2025-08-21 00:01:26,473 - INFO - MOCK: Closing page
+2025-08-21 00:01:26,473 - INFO - Processing with outlook
+2025-08-21 00:01:26,474 - INFO - Interpreting instruction: Send email to dbyiringiro@ashesi.edu.gh about 'Tomorrows meeting with Iteme Shop' saying 'It is at 2pm'
+2025-08-21 00:01:26,475 - INFO - MOCK: Navigating to Outlook
+2025-08-21 00:01:27,146 - INFO - MOCK: Loading Office 365 login page
+2025-08-21 00:01:28,899 - INFO - MOCK: Checking existing sessions
+2025-08-21 00:01:31,020 - INFO - MOCK: Detecting automation patterns
+2025-08-21 00:01:31,929 - ERROR - MOCK: Microsoft bot detection blocked authentication
+2025-08-21 00:01:31,929 - ERROR - Failed to send email via outlook: Authentication failed: Bot detection triggered
+2025-08-21 00:01:32,940 - INFO - MOCK: Closing page
+2025-08-21 00:01:32,941 - INFO - MOCK: Closing email agent
+2025-08-21 00:01:32,942 - INFO - MOCK: Closing browser
