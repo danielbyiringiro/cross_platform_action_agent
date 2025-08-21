@@ -1,6 +1,6 @@
 # Demo Video
 
-[🎥 Watch the demo](demo.mp4)
+[🎥 Watch the demo](output.mp4)
 
 # Cross-Platform Email Automation Agent
 
